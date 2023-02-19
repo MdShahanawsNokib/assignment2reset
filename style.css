@@ -263,10 +263,12 @@ footer p {
 
 .story-image {
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .story-image img {
-    max-width: 100%;
+    max-width: 50%;
 }
 
 @media (max-width: 600px) {
